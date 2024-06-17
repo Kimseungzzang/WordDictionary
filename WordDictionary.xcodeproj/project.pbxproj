@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5A7EC2B2C19B20E0036372B /* AddWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A7EC2A2C19B20E0036372B /* AddWordViewController.swift */; };
+		F5A7EC2D2C19BD1C0036372B /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A7EC2C2C19BD1C0036372B /* QuizViewController.swift */; };
+		F5A7EC2F2C19BF7A0036372B /* GuessWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A7EC2E2C19BF7A0036372B /* GuessWordViewController.swift */; };
+		F5A7EC312C19BFA00036372B /* GuessMeaningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A7EC302C19BFA00036372B /* GuessMeaningViewController.swift */; };
+		F5E9772F2C19A94D00B2DE19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9772E2C19A94D00B2DE19 /* AppDelegate.swift */; };
+		F5E977312C19A94D00B2DE19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E977302C19A94D00B2DE19 /* SceneDelegate.swift */; };
+		F5E977332C19A94D00B2DE19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E977322C19A94D00B2DE19 /* ViewController.swift */; };
+		F5E977362C19A94D00B2DE19 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5E977352C19A94D00B2DE19 /* Base */; };
+		F5E977382C19A94F00B2DE19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E977372C19A94F00B2DE19 /* Assets.xcassets */; };
+		F5E9773B2C19A94F00B2DE19 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5E9773A2C19A94F00B2DE19 /* Base */; };
+		F5E977462C19AB4400B2DE19 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F5E977452C19AB4400B2DE19 /* FirebaseAnalytics */; };
+		F5E977482C19AB4400B2DE19 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F5E977472C19AB4400B2DE19 /* FirebaseDatabase */; };
+		F5E9774A2C19AB4400B2DE19 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F5E977492C19AB4400B2DE19 /* FirebaseDatabaseSwift */; };
+		F5E977502C19AE5C00B2DE19 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5E9774F2C19AE5C00B2DE19 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5A7EC2A2C19B20E0036372B /* AddWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordViewController.swift; sourceTree = "<group>"; };
+		F5A7EC2C2C19BD1C0036372B /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		F5A7EC2E2C19BF7A0036372B /* GuessWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessWordViewController.swift; sourceTree = "<group>"; };
+		F5A7EC302C19BFA00036372B /* GuessMeaningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessMeaningViewController.swift; sourceTree = "<group>"; };
+		F5E9772B2C19A94D00B2DE19 /* WordDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E9772E2C19A94D00B2DE19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5E977302C19A94D00B2DE19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5E977322C19A94D00B2DE19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5E977352C19A94D00B2DE19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5E977372C19A94F00B2DE19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5E9773A2C19A94F00B2DE19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5E9773C2C19A94F00B2DE19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E9774F2C19AE5C00B2DE19 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5E977282C19A94D00B2DE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E9774A2C19AB4400B2DE19 /* FirebaseDatabaseSwift in Frameworks */,
+				F5E977482C19AB4400B2DE19 /* FirebaseDatabase in Frameworks */,
+				F5E977462C19AB4400B2DE19 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5E977222C19A94D00B2DE19 = {
+			isa = PBXGroup;
+			children = (
+				F5E9772D2C19A94D00B2DE19 /* WordDictionary */,
+				F5E9772C2C19A94D00B2DE19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5E9772C2C19A94D00B2DE19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9772B2C19A94D00B2DE19 /* WordDictionary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E9772D2C19A94D00B2DE19 /* WordDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9774F2C19AE5C00B2DE19 /* GoogleService-Info.plist */,
+				F5E9772E2C19A94D00B2DE19 /* AppDelegate.swift */,
+				F5E977302C19A94D00B2DE19 /* SceneDelegate.swift */,
+				F5E977322C19A94D00B2DE19 /* ViewController.swift */,
+				F5E977342C19A94D00B2DE19 /* Main.storyboard */,
+				F5E977372C19A94F00B2DE19 /* Assets.xcassets */,
+				F5E977392C19A94F00B2DE19 /* LaunchScreen.storyboard */,
+				F5E9773C2C19A94F00B2DE19 /* Info.plist */,
+				F5A7EC2A2C19B20E0036372B /* AddWordViewController.swift */,
+				F5A7EC2C2C19BD1C0036372B /* QuizViewController.swift */,
+				F5A7EC2E2C19BF7A0036372B /* GuessWordViewController.swift */,
+				F5A7EC302C19BFA00036372B /* GuessMeaningViewController.swift */,
+			);
+			path = WordDictionary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5E9772A2C19A94D00B2DE19 /* WordDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E9773F2C19A94F00B2DE19 /* Build configuration list for PBXNativeTarget "WordDictionary" */;
+			buildPhases = (
+				F5E977272C19A94D00B2DE19 /* Sources */,
+				F5E977282C19A94D00B2DE19 /* Frameworks */,
+				F5E977292C19A94D00B2DE19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordDictionary;
+			packageProductDependencies = (
+				F5E977452C19AB4400B2DE19 /* FirebaseAnalytics */,
+				F5E977472C19AB4400B2DE19 /* FirebaseDatabase */,
+				F5E977492C19AB4400B2DE19 /* FirebaseDatabaseSwift */,
+			);
+			productName = WordDictionary;
+			productReference = F5E9772B2C19A94D00B2DE19 /* WordDictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5E977232C19A94D00B2DE19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F5E9772A2C19A94D00B2DE19 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F5E977262C19A94D00B2DE19 /* Build configuration list for PBXProject "WordDictionary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5E977222C19A94D00B2DE19;
+			packageReferences = (
+				F5E977442C19AB4400B2DE19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = F5E9772C2C19A94D00B2DE19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5E9772A2C19A94D00B2DE19 /* WordDictionary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5E977292C19A94D00B2DE19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E977382C19A94F00B2DE19 /* Assets.xcassets in Resources */,
+				F5E977502C19AE5C00B2DE19 /* GoogleService-Info.plist in Resources */,
+				F5E9773B2C19A94F00B2DE19 /* Base in Resources */,
+				F5E977362C19A94D00B2DE19 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5E977272C19A94D00B2DE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E977332C19A94D00B2DE19 /* ViewController.swift in Sources */,
+				F5A7EC2D2C19BD1C0036372B /* QuizViewController.swift in Sources */,
+				F5E9772F2C19A94D00B2DE19 /* AppDelegate.swift in Sources */,
+				F5A7EC2B2C19B20E0036372B /* AddWordViewController.swift in Sources */,
+				F5A7EC312C19BFA00036372B /* GuessMeaningViewController.swift in Sources */,
+				F5A7EC2F2C19BF7A0036372B /* GuessWordViewController.swift in Sources */,
+				F5E977312C19A94D00B2DE19 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5E977342C19A94D00B2DE19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E977352C19A94D00B2DE19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5E977392C19A94F00B2DE19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E9773A2C19A94F00B2DE19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5E9773D2C19A94F00B2DE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5E9773E2C19A94F00B2DE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5E977402C19A94F00B2DE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WordDictionary/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kimseungzzang.WordDictionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5E977412C19A94F00B2DE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WordDictionary/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kimseungzzang.WordDictionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5E977262C19A94D00B2DE19 /* Build configuration list for PBXProject "WordDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E9773D2C19A94F00B2DE19 /* Debug */,
+				F5E9773E2C19A94F00B2DE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E9773F2C19A94F00B2DE19 /* Build configuration list for PBXNativeTarget "WordDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E977402C19A94F00B2DE19 /* Debug */,
+				F5E977412C19A94F00B2DE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5E977442C19AB4400B2DE19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5E977452C19AB4400B2DE19 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5E977442C19AB4400B2DE19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		F5E977472C19AB4400B2DE19 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5E977442C19AB4400B2DE19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		F5E977492C19AB4400B2DE19 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5E977442C19AB4400B2DE19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F5E977232C19A94D00B2DE19 /* Project object */;
+}
